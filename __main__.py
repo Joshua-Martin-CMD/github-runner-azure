@@ -25,6 +25,8 @@ registry = azure_native.containerregistry.Registry(
     }
 )
 
+# [TODO] Create Container App
+
 # Create an Azure resource (Storage Account)
 account = storage.StorageAccount(
     "sa",
