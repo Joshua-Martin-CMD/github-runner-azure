@@ -1,0 +1,1 @@
+docker run -e GH_TOKEN='myPatToken' -e GH_OWNER='orgName' -e GH_REPOSITORY='repoName' -d docker-github-runner-jmCMD

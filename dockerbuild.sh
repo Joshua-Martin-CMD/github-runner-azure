@@ -1,0 +1,1 @@
+docker build --build-arg RUNNER_VERSION=2.292.0 --tag docker-github-runner-jmCMD .
