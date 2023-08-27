@@ -1,0 +1,6 @@
+name: azure-acr-github-runner
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Azure Repository for Runner Image

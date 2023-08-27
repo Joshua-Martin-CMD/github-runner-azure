@@ -1,0 +1,6 @@
+name: azure-identity-github-runner
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Identity Provider OIDC for github

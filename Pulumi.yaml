@@ -1,6 +1,0 @@
-name: azure-runner-python
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Azure Python Runner for Github
