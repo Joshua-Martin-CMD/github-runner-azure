@@ -11,9 +11,6 @@ from pulumi_azure_native import (
 
 from resources.env_config import resource_grp, org, GITLAB_ORG, GITLAB_REPO
 
-# Create an Azure Resource Group
-resource_group = resources.ResourceGroup(f"{resource_grp}")
-
 # Create an Azure resource (Federated Access)
 federated_github_access = _identity.FederatedIdentityCredential(f"Gitlab-OIDC",
     name=f"Gitlab_runner-{org}",
@@ -22,3 +19,4 @@ federated_github_access = _identity.FederatedIdentityCredential(f"Gitlab-OIDC",
     resource_name=f"{resource_grp}",
     audiences=["api://AzureADTokenExchange"]
     )
+
