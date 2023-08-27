@@ -5,7 +5,7 @@ from pulumi_azure_native import storage
 from pulumi_azure_native import resources
 import pulumi_azure_native as azure_native
 
-from env_config import PROJ_NAME
+from resources.env_config import PROJ_NAME
 
 # Create an Azure Resource Group
 resource_group = resources.ResourceGroup(f"{PROJ_NAME}-resource-group")
